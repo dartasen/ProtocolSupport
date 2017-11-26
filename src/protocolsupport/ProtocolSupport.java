@@ -120,7 +120,6 @@ public class ProtocolSupport extends JavaPlugin {
 		getCommand("protocolsupport").setExecutor(new CommandHandler());
 		getServer().getPluginManager().registerEvents(new FeatureEmulation(), this);
 		getServer().getPluginManager().registerEvents(new ReloadCommandBlocker(), this);
-		getServer().getPluginManager().registerEvents(new MultiplePassengersRestrict(), this);
 	}
 
 	@Override
